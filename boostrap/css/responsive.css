@@ -1,0 +1,18 @@
+/* thiết kế theo kiểu mobile first */
+@media(min-width: 992px) {
+    #header .main-menu .navbar-toggler {
+        display: none;
+    }
+    #header #navbarText {
+        display: block;
+    }
+    #header .menu ul li {
+        display: inline-block;
+    }
+    #main #slide-main {
+        display: block;
+    }
+    #main .aside {
+        display: block;
+    }
+}

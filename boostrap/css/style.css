@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+html body {
+    background-color: #e7ecf4;
+    font-size: 13px;
+}
+#header .main-menu {
+    background-color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+#header .main-menu input[type=text] {
+    width: 278px;
+    padding-left: 12px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#header .main-menu input[type=submit] {
+    width: 78px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: red;
+    color: white;
+}
+#header .main-menu input {
+    border: none;
+    height: 30px;
+}
+#header .main-menu a{
+    text-decoration: none;
+}
+#header .main-menu .span {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    line-height: 25px;
+    display: inline-block;
+    text-align: center;
+}
+#header .main-menu a, #header .main-menu span {
+    color: white;
+}
+#header .menu ul {
+    background-color: red;
+}
+#header .menu ul li {
+    display: block;
+    list-style: none;
+    padding: 12px;
+    color: white;
+    border-right: 1px solid #333;
+}
+#main .products h3 {
+    margin: 15px 0;
+}
+#main .products .item {
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#main .products .item img {
+    padding: 10px 0;
+}
+#main .products .item h4 {
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+#main .products .item a {
+    text-decoration: none;
+}
+#main .products .item p span {
+    color: red;
+}
+#main .products [class*=col-] {
+    padding: 5px;
+}
+#main .products .row {
+    margin: 0 -5px;
+}
+#main .aside img{
+    padding-bottom: 10px;
+}
+/* buổi 3 */
+#footer {
+    background-color: white;
+}
+#footer img {
+    padding: 25px 0 15px 0;
+}
+#footer h4 {
+    padding: 25px 0 15px 0;
+    border-bottom: 1px solid #333;
+}
+#ban-quyen {
+    background-color: black;
+    padding: 5px 0;
+}
+#ban-quyen p {
+    color: white;
+}
+#main #slide-main {
+    display: none;
+}
+#main .aside {
+    display: none;
+}
+#header .main-menu .navbar-toggler { 
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}

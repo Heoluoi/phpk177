@@ -1,0 +1,69 @@
+/* .box {
+    height: 200px;
+    width: 200px;
+    background: blue;
+}
+.box:hover {
+    background: red;
+} */
+/* 
+nav ul {
+    background: red;
+    height: 40px;
+    width: 600px;
+
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px 0px 15px;
+    color: #fff;
+    border-right: 1px solid #333;
+}
+nav ul li:hover {
+    color: blue; */
+
+    /* //đây là border */
+    /* .box1 {
+        height: 200px;
+        width: 200px;
+        background: pink;
+        border-top: 3px solid black;
+    } */
+/* .box-1 {
+    height: 200px;
+    width: auto;
+    background: rebeccapurple;
+    display: block;
+}
+.box-2 {
+    height: 200px;
+    width: auto;
+    background: blue;
+    display: inline-block;
+}
+.box-3 {
+    height: 200px;
+    width: auto;
+    background: red;
+    display: inline;
+}
+.box-4 {
+    height: 200px;
+    width: 1300px;
+    background: black;
+    display: none;
+} */
+/* display: block, inline-block, inline, none; */
+
+/* responsip giao diện điện thoại*/
+
+@media (min-width: 992px) {
+    #code...
+}
+@media (max-width: 992px) and (min-width: 768px) {
+    #code...
+}
+@media (max-width: 768px) {
+   #code...
+}

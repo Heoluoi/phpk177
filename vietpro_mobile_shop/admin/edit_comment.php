@@ -1,4 +1,5 @@
 <?php 
+
 $comm_id = $_GET['comm_id'];
 $sql = "SELECT * FROM comment WHERE comm_id = $comm_id";
 $query = mysqli_query($conn, $sql);

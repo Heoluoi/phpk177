@@ -63,8 +63,8 @@ if(!defined('SECURITY'))
 			<li class="<?php if($_GET['page_layout']=='user'){echo 'active';} ?>"><a href="index.php?page_layout=user"><svg class="glyph stroked male user "><use xlink:href="#stroked-male-user"/></svg>Quản lý thành viên</a></li>
 			<li class="<?php if($_GET['page_layout']=='category'){echo 'active';} ?>"><a href="index.php?page_layout=category"><svg class="glyph stroked open folder"><use xlink:href="#stroked-open-folder"/></svg>Quản lý danh mục</a></li>
 			<li class="<?php if($_GET['page_layout']=='product'){echo 'active';} ?>"><a href="index.php?page_layout=product"><svg class="glyph stroked bag"><use xlink:href="#stroked-bag"></use></svg>Quản lý sản phẩm</a></li>
-			<!-- <li><a href="comment.html"><svg class="glyph stroked two messages"><use xlink:href="#stroked-two-messages"/></svg> Quản lý bình luận</a></li>
-			<li><a href="ads.html"><svg class="glyph stroked chain"><use xlink:href="#stroked-chain"/></svg> Quản lý quảng cáo</a></li>
+			<li class="<?php if($_GET['page_layout']=='comment'){echo 'active';} ?>"><a href="index.php?page_layout=comment"><svg class="glyph stroked two messages"><use xlink:href="#stroked-two-messages"/></svg> Quản lý bình luận</a></li>
+			<!-- <li><a href="ads.html"><svg class="glyph stroked chain"><use xlink:href="#stroked-chain"/></svg> Quản lý quảng cáo</a></li>
 			<li><a href="setting.html"><svg class="glyph stroked gear"><use xlink:href="#stroked-gear"/></svg> Cấu hình</a></li> -->
 		</ul>
 
@@ -86,6 +86,11 @@ if(isset($_GET['page_layout'])){
 		case 'product': include_once('product.php'); break;
 		case 'add_product': include_once('add_product.php'); break;
 		case 'edit_product': include_once('edit_product.php'); break;
+		//comment
+		case 'comment': include_once('comment.php'); break;
+		case 'add_comment': include_once('add_comment.php'); break;
+		case 'edit_comment': include_once('edit_comment.php'); break;
+
 		default:
 		include_once('sub_admin.php');
 		break;

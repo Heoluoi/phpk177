@@ -18,9 +18,10 @@ if(isset($_POST['sbm'])){
     $prd_promotion = $_POST['prd_promotion'];
     $prd_new = $_POST['prd_new'];
     //ảnh
-    if($_FILES['prd_image']['name'] == ''){
+    if($_FILES['prd_image']['name'] == '') {
         $prd_image = $row['prd_image'];
     }else{
+        
         $prd_image = $_FILES['prd_image']['name'];
         $prd_image_tmp_name = $_FILES['prd_image']['tmp_name'];
         move_uploaded_file($prd_image_tmp_name, 'img/products/'.$prd_image);

@@ -102,7 +102,7 @@ if(isset($_POST['sbm'])){
                                         //dùng vòng lặp while để lặp ra các dm
                                         while($row_cat = mysqli_fetch_assoc($query_cat)){
                                         ?>
-                                        <option value=<?php echo $row_cat['cat_id'] ?>><?php echo $row_cat['cat_name'] ?></option>
+                                        <option value=<?php echo $row_cat['cat_id']; ?>><?php echo $row_cat['cat_name']; ?></option>
                                         <?php } ?>
                                     </select>
                                 </div>
